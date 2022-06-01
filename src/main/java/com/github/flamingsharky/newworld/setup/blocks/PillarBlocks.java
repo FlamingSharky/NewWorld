@@ -43,9 +43,6 @@ public class PillarBlocks extends RotatedPillarBlock {
             if (state.is(Registration.FIR_LOG.get())) {
                 return Registration.STRIPPED_FIR_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
-            if (state.is(Registration.FIR_WOOD.get())) {
-                return Registration.STRIPPED_FIR_WOOD.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
-            }
         }
         return super.getToolModifiedState(state, world, pos, player, stack, toolAction);
     }
