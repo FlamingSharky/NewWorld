@@ -8,8 +8,8 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class NewWorldItemModelProvider extends ItemModelProvider {
 
-    public NewWorldItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-        super(generator, NewWorldMod.MOD_ID, existingFileHelper);
+    public NewWorldItemModelProvider(DataGenerator generator, ExistingFileHelper helper) {
+        super(generator, NewWorldMod.MOD_ID, helper);
     }
 
     @Override
