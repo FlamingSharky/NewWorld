@@ -1,4 +1,4 @@
-package com.github.flamingsharky.newworld.datagen;
+package com.github.flamingsharky.newworld.datageneration;
 
 import com.github.flamingsharky.newworld.NewWorldMod;
 import com.github.flamingsharky.newworld.setup.Registration;
@@ -6,10 +6,10 @@ import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
-public class NewWorldItemModelProvider extends ItemModelProvider {
+public class NWItemModels extends ItemModelProvider {
 
-    public NewWorldItemModelProvider(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator, NewWorldMod.MOD_ID, helper);
+    public NWItemModels(DataGenerator generator, ExistingFileHelper existingFileHelper) {
+        super(generator, NewWorldMod.MOD_ID, existingFileHelper);
     }
 
     @Override

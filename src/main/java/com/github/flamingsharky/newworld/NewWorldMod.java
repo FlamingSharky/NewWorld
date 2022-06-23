@@ -28,7 +28,6 @@ public class NewWorldMod
 
     public NewWorldMod() {
         Registration.init();
-        // Register ourselves for server and other game events we are interested in
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(ModSetup::init);
         if (FMLEnvironment.dist == Dist.CLIENT) {

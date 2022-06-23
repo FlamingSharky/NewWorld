@@ -1,4 +1,4 @@
-package com.github.flamingsharky.newworld.datagen.extras;
+package com.github.flamingsharky.newworld.datageneration.custom;
 
 import com.github.flamingsharky.newworld.NewWorldMod;
 import net.minecraft.data.DataGenerator;
